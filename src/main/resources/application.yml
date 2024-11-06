@@ -1,0 +1,13 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: infytel-plan
+  cloud:
+    consul:
+      config:
+        enabled: true
+        prefix: config
+        defaultContext: application
+        profileSeparator: '::'
+        format: YAML
