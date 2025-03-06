@@ -5,6 +5,8 @@ spring:
     name: infytel-plan
   cloud:
     consul:
+      discovery:
+        hostname: localhost
       config:
         enabled: true
         prefix: config
